@@ -9,29 +9,37 @@
         <meta name="author" content="Instituto Evoluir"/>
         <meta name="description" content="landing page para a construtora Obra Fácil"/>
         <link rel="stylesheet" href="stylesheets/style.css"/>
+        <link rel="stylesheet" href="stylesheets/typography.css"/>
     </head>
 
     <body>
 
          <!--cabeçalho da página-->
          <header>
-            <div>
+            <div class="image">
                <img src="images/logo.png" alt="Obra Fácil" title="Obra Fácil"/>
             </div>
 
-            <div>
-               Siga Conectado
+            <div class="social">
+                <div id="siga-conectado">Siga Conectado</div>
                <a href="#" title="YouTube" class="youtube-button"></a>
                <a href="#" title="Twitter" class="twitter-button"></a>
                <a href="#" title="Facebook" class="facebook-button"></a>
                <a href="#" title="Instagram" class="instagram-button"></a>
             </div>
+
+            
         </header>
 
          <!--conteúdo principal-->
          <main>
             <div class="content">
+
                 <div class="video-area">
+                    <h2>Teu lar reformado, energia reformada!</h2>
+
+                    <p class="subtitle">Tornar sua casa uma demostração da sua personalidade é nossa paixão.</p>
+
                     <iframe
                     width="560"
                     height="315"
@@ -44,6 +52,17 @@
    
                 </div>
                 <div class="form-area">
+                    <h2>OBRAS RÁPIDAS E BARATAS!</h2>
+
+                    <p class="subtitle">Somos especialistas em obras, reforma e construção de sonhos.</p>
+
+                    <form name="lead" action="#" method="post">
+                        <input type="text" name="name" placeholder="Seu nome completo" required/>
+                        <input type="tel" name="phone" placeholder="Seu número de telefone" required/>
+                        <input type="email" name="email" placeholder="Seu email" required/>
+                        <button id="sumit-button">Fale conosco</button>
+                    </form>
+                    <span>Entraremos em contato em até 24h.</span>
 
                 </div>
             </div>

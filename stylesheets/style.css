@@ -1,0 +1,55 @@
+/* cabeçalho */
+
+header {
+    background-color: white;
+    border-bottom: 3px solid #ddd;
+    padding: 25px 10%;
+    display: flex;
+}
+
+header .social, header .image {
+    width: 50%;
+}
+
+#siga-conectado {
+    color: gray;
+    float: left;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+header .social a {
+    height: 32px;
+    width: 32px;
+    margin-left: 5px;
+    float: right;
+}
+
+/* imagem cinza */
+header .youtube-button {
+    background-image: url(../images/social_media_icons/yt.png)
+}
+header .twitter-button {
+    background-image: url(../images/social_media_icons/twitter.png)
+}
+header .facebook-button {
+    background-image: url(../images/social_media_icons/facebook.png)
+}
+header .instagram-button {
+    background-image: url(../images/social_media_icons/instagram.png)
+}
+
+/* imagem colorida */
+header .youtube-button:hover {
+    background-image: url(../images/social_media_icons/youtube-hover.png)
+}
+header .twitter-button:hover {
+    background-image: url(../images/social_media_icons/twitter-hover.png)
+}
+header .facebook-button:hover {
+    background-image: url(../images/social_media_icons/facebook-hover.png)
+}
+header .instagram-button:hover {
+    background-image: url(../images/social_media_icons/instagram-hover.png)
+}
