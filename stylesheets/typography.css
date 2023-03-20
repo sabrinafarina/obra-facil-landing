@@ -9,3 +9,23 @@ h2 {
 
 }
 
+form h2 {
+    margin: 0;
+    padding: 30px 20px;
+}
+
+.notes {
+    font-size: 10px;
+    color: gray;
+}
+
+.subtitle {
+    color: gray;
+    font-size: 15px;
+}
+
+form input, form button {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}

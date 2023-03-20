@@ -53,3 +53,60 @@ header .facebook-button:hover {
 header .instagram-button:hover {
     background-image: url(../images/social_media_icons/instagram-hover.png)
 }
+
+/* área principal */
+
+main .content {
+    display: flex;
+    background: #f5f5f5;
+    padding: 50px 15%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* formulário */
+.form-area {
+    background: white;
+    margin-left: 15px;
+    width: 400px;
+    padding-bottom: 15px;
+}
+
+input {
+    background-color: #eee;
+    border-radius: 3px;
+    border: solid 1px darkgray;
+    height: 48px;
+    padding: 6px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+form, div.form-header, .notes { margin: 20px;}
+
+button#sumit-button {
+    background-color: #5b9a68;
+    border-radius: 5px;
+    border: solid 1px white;
+    color: white;
+    text-transform: uppercase;
+    height: 48px;
+    padding: 10px;
+    width: 100%;
+
+}
+
+button#sumit-button:hover {
+    cursor: pointer;
+    background-color: #1d5528;
+}
+
+footer {
+    color: gray;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    background: #f6f6f6;
+}
